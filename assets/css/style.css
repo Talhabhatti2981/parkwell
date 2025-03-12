@@ -1,0 +1,746 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.ibm-plex-serif-thin {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-extralight {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-light {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-regular {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-medium {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-semibold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-bold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-thin-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-extralight-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-light-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-regular-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-medium-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-semibold-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-bold-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  
+:root{
+    --color-primary: #333333;
+    --color-secondary: #F8312F;
+    --color-tertiary: #F9C23C;
+    --color-quaternary: #0e001a;
+    --color-lightgray: #F2F2F2;
+    --color-indigo: #0f031a;
+    --color-high: #5B5B6E;
+    --color-side: #000000;
+    --color-orange: #FF8003;
+    --color-blue: #492CF5;
+
+
+}
+.navbar.navbar-expand-lg.bg-blue{
+    background-color: var(--color-blue);
+    color: var(--color-high);
+padding-left: 35%;   
+gap: 15%;
+}
+#navbar{
+    padding-left: 6%;
+    display: flex
+}
+.nav-item{
+    padding-left: 25%;
+    text-align: center;
+
+}
+.login-button {
+    background-color:#F1F1F5; 
+    color: black; 
+    border: none; 
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    margin-left: 10%;
+
+}
+.login-button:hover {
+    background-color: rgb(221, 181, 181); 
+}
+
+#btn{
+    background-color:#0056b3; 
+    border: none; 
+    border-radius: 25px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.hero {
+    background-image: url(../img/hero-img.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    padding: 50px 0; 
+}
+
+#hero-btn{
+    background-color:#FFFFFF;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+
+    
+
+}
+.text-white.fs-1.fw-bold.text-center{
+    font-size: 50px !important;
+    font-weight: 500;
+}
+#text{
+font-size: 80px;  
+  text-align: center;
+  font-family: IBM Plex Serif  ;
+}
+.btn.btn-primary{
+    
+padding: 1px;
+background-color:#FFFFFF;
+color: #000000;
+width: 100px;
+margin-left: 43%;
+border: none;
+border-radius: 100px;
+}
+.herosection{
+    height: 200px;
+    width: 200px;
+    color: #F1F1F5;
+}
+.card1{
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+    
+}
+.card2{
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+}
+.card3{
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+}
+.card4{
+    
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+}
+.card5{
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+}
+.card6{
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+}
+.card7{
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+}
+.card8{
+    background-color: #F1F1F5;
+    border: 1px solid blue;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+}
+.nav-btn{
+    display: flex;
+    margin-right: 80px;
+    
+}
+@media (max-width: 600px) {
+    .login-button {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-btn {
+        margin-left: 50px; 
+    }
+
+    .login-button {
+        max-width: none; 
+        width: auto;
+    }
+}
+.main-page-contact{
+    background-image: url(../img/heero-img.jpg);
+    padding: 100px;
+}
+.contact-item {
+    background-color: white; 
+    border-radius: 30px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .contact-item {
+        width: 100%; 
+        margin: 0 auto; 
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-item {
+        width: 450px; 
+        margin: 0 auto; 
+    }
+}
+.text-start.text-white{
+    font-size: 70px;
+    font-family: IBM Plex Serif;
+}
+.col1{
+    width: 400px;
+    height: 70px;
+    background-color: #DBF1FF;
+    border-radius: 50px;
+}
+.col2{
+    
+    width: 400px;
+    height: 70px;
+    background-color: #DBF1FF;
+    border-radius: 50px;
+}
+.accordion-item{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: none;
+    border: #FFFFFF;
+
+}
+
+
+.accordion-body {
+    font-size: 16px; 
+    box-shadow: none; 
+    border: 1px solid white;
+}
+.accordion-button {
+    font-size: 16px; 
+    box-shadow: none; 
+    border: 1px solid white;
+
+}
+
+.col3{
+    
+    width: 400px;
+    height: 70px;
+    background-color: #2B44E7;
+    border-radius: 50px;
+}
+.text-white.mt-5{
+    font-size: 50px;
+font-family: IBM Plex Serif;
+}
+
+#message{
+    width: 550px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding-left: 25px;
+}
+#message:focus{
+    box-shadow: none;
+    border: white;
+}
+
+.image{
+    background-image: url(../img/8c47c32e69998bee1f4cf86741654074.jfif);
+    background-size: inherit;
+    background-position: center center;
+    padding: 50px 0;
+}
+.text-white.text-center{
+    font-size: 80px;
+    text-align: center;
+    font-family: IBM Plex Serif;
+}
+.text-black.mt-5.fw-bold{
+    font-size: 30px;
+    font-family: IBM Plex Serif ;
+    padding: 60px;
+}
+.text-black{
+font-family: Poppins;
+}
+#ctact-btn{
+    background-color: #492CF5;
+}
+.service-box{
+    background-color: #F5F5F7;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+    
+}
+.service-box1{
+    background-color: #F5F5F7;
+    border-radius: 17px;
+    height: 250px; 
+    width: 258px;
+    top: 615px;
+    left: 75px;
+    text-align: center;
+margin-top: 10%;
+margin-bottom: 30%;
+}
+#h1{
+    font-family: Roboto;
+    margin-top: 7%;
+    
+}
+.immg{
+text-align: center;
+}
+.para{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 8px;
+
+}
+span{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.testimonial-bg {
+    background-color: #F5F5F7;
+}
+
+.testimonial-bg .testimonial-head {
+    text-align: center;
+}
+
+.testimonial-bg .testimonial-head .head-start h5 {
+    font-family: Roboto;
+}
+
+.testimonial-bg .testimonial-head .head-start .head-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-bg .testimonial-head .head-start .head-images .image-back {
+    background: #219653;
+    padding: 10px;
+    margin: 5px;
+}
+
+.testimonial-bg .testimonial-head .head-start .head-images .image-back img {
+    filter: invert(0) brightness(9);
+}
+
+.testimonial-item-area{
+    background-color: white !important;;
+    border-radius: 4%;
+}
+.text-black.text-center.py-5{
+    font-size: 60px;
+    font-weight: 200;
+}
+.testimonial-item-area.my-5.p-1{
+    background-color: #FFFFFF;
+}
+.text-black.text-center{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.item{
+    background-color: #FFFFFF;
+    padding: 2%;
+    border-radius: 20px;
+} 
+.item-content{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 20px;
+
+
+
+}
+.text-black.fw-bold{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}    
+.contact-container {
+    display: flex; 
+    align-items: center; 
+}
+
+.mt-3 {
+    margin-top: 1rem; 
+}
+
+.pt-2 {
+    padding-top: 0.5rem; 
+}
+
+.btn {
+    background-color:#492CF5; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-left: 35%; 
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: rgb(49, 49, 114);
+    color: white; 
+} 
+.mt-5{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 60px;
+}
+
+
+.my-5{
+padding-top: 7%;
+    font-size: 30px;
+    font-family: "IBM Plex Serif", serif;
+
+}
+#instruction{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+
+}
+.px-3{
+    font-size: 15px;
+}
+.form{
+background-color: #F0F0F0;
+ margin-top: 15%;
+ border-radius: 20px;
+}
+#form-control{
+    padding: 15px;
+}
+#form-control:focus{
+    box-shadow: none;
+    background-color: #FFFFFF;
+}
+
+#floatingInput{
+    border-radius: 30px;
+}
+#floatingInput:focus{
+    box-shadow: none;
+    border: #FFFFFF;
+}
+
+.age-inputs{
+    margin-left: 12px;
+}
+.optional-btn {
+    display: flex;
+    align-items: center; 
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+
+}
+.accordion-item {
+    background-color: white; 
+    border: 1px solid #dee2e6; 
+    border-radius: 0.25rem;
+    margin-bottom: 120px; 
+    border-radius: 20px;
+}
+.accordion-button {
+    background-color: white; 
+    color: #000; 
+}
+.accordion-button:not(.collapsed) {
+    background-color: #e9ecef; 
+}
+
+
+.optional-btn input[type="radio"] {
+    margin-right: 5px; 
+}
+
+.optional-btn label {
+    margin-right: 15px;
+
+}
+.client-info{
+    
+    font-family: "Poppins", sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: -0.02em;
+text-align: left;
+text-decoration-skip-ink: none;
+padding-top: 15px;
+}
+.name-container {
+    display: flex;
+    align-items: center; 
+}
+
+.name-field {
+    margin-right: 20px; 
+}
+
+.name-field h5 {
+    margin: 0; 
+}
+#fname{
+    padding: 10px;
+    margin-top: 20px;
+    width: 170%;
+    border: none;
+    border-radius: 30px;
+}
+#lname{
+    padding: 10px;
+    margin-top: 37px;
+    width: 170%;
+    border: none;
+    border-radius: 30px;
+    margin-left: 230%;
+}
+.address{
+    width: 58%;
+}
+.location-container {
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.location-field {
+    margin-right: 10px; 
+}
+
+input[type="text"] {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 150px; 
+}
+
+input[type="text"]:last-of-type {
+    margin-right: 0; 
+}
+#city{
+    padding: 10px;
+    margin-top: 20px;
+    width: 170%;
+    border: none;
+    border-radius: 30px;
+}
+
+#state{
+    padding: 10px;
+    margin-top: 37px;
+    width: 170%;
+    border: none;
+    border-radius: 30px;
+    margin-left: 230%;
+}
+.age {
+    margin-bottom: 15px; 
+}
+
+
+input[type="text"] {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 30px; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+#ticket{
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+
+}
+#info-item{
+    margin-top: 4%;
+    font-family: "Poppins", sans-serif;
+
+}
+.mt-3.text-dark{
+    font-size: 20px;
+    font-weight: 650;
+}
+#last{
+    margin-top: 30px;
+
+
+}
+#next{
+    margin-top: 30px;
+    background-color: #492CF5;
+    color:#FFFFFF;
+    border-radius: 25px;
+padding-left: 20px;
+padding-right: 20px;
+width: 100px;
+padding: 10px;
+border: none;
+
+}
+#next:hover{
+    background-color: #3B3F5F;
+}
+
+.text-start.text-white.mb-4{
+    font-size: 50px;
+}
